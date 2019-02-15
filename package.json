@@ -1,0 +1,20 @@
+{
+  "name": "sample-metro-bundler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "metro": "^0.51.1",
+    "metro-core": "^0.51.1"
+  },
+  "dependencies": {
+    "dayjs": "^1.8.6",
+    "express": "^4.16.4",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  }
+}
