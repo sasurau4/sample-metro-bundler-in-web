@@ -1,11 +1,5 @@
-// const React = require('react');
-// const ReactDOM = require('react-dom');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './src';
 
-// const Test = () => <h1>Metro Bundler!</h1>;
-//
-// ReactDOM.render(<Test />, document.getElementById('root'));
-//
-// import src from './src';
-import dayjs from 'dayjs';
-// console.log(src);
-console.log(dayjs());
+ReactDOM.render(<App />, document.getElementById('root'));
