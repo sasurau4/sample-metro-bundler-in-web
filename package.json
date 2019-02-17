@@ -17,5 +17,8 @@
     "express": "^4.16.4",
     "react": "^16.8.2",
     "react-dom": "^16.8.2"
+  },
+  "scripts": {
+    "start": "node server.js"
   }
 }
