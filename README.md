@@ -6,7 +6,7 @@ This is PoC Project about using metro bundler in web.
 
 1. `yarn install`
 2. `yarn start`
-3. access to http://localhost:8081/
+3. access to http://localhost:8082/
 
 # License
 
