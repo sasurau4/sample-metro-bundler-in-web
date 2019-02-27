@@ -1,5 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './src';
+import React from "react";
+import { AppRegistry, Text } from "react-native";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+function TestApp(props) {
+  return <Text>HOGEHOGE</Text>;
+}
+
+AppRegistry.registerComponent("root", () => TestApp);
+
+AppRegistry.runApplication("root", {
+  rootTag: document.getElementById("root")
+});

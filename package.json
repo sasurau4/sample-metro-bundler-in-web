@@ -9,14 +9,19 @@
     "@babel/plugin-proposal-export-default-from": "^7.2.0",
     "@babel/preset-env": "^7.3.1",
     "@babel/preset-react": "^7.0.0",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "babel-plugin-react-native-web": "^0.10.0",
     "metro": "^0.51.1",
-    "metro-core": "^0.51.1"
+    "metro-core": "^0.51.1",
+    "metro-react-native-babel-preset": "^0.52.0"
   },
   "dependencies": {
+    "@babel/runtime": "^7.3.4",
     "dayjs": "^1.8.6",
     "express": "^4.16.4",
     "react": "^16.8.2",
-    "react-dom": "^16.8.2"
+    "react-dom": "^16.8.2",
+    "react-native-web": "^0.10.0"
   },
   "scripts": {
     "start": "node server.js"
